@@ -1,0 +1,36 @@
+.btn {
+  display: inline-block;
+  padding: 6px 25px;
+  white-space: pre-line;
+  font-size: 0.95em;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.3s background ease-in;
+  text-decoration: none;
+  border-radius: 0;
+  margin: 0.55em 0 0.15em;
+  color: white;
+  &:focus,
+  &:hover {
+    text-decoration: none;
+    color: white;
+  }
+}
+button.btn {
+  white-space: initial;
+}
+.red-btn {
+  background: $orange;
+  transition: 0.5s all ease;
+  &:hover {
+    background: darken($orange,10%);
+  }
+}
+#gform_submit_button_1 {
+  @extend .btn, .red-btn;
+  min-width: 186px;
+  padding: 10px 0;
+  font-family: 'texgyreadventorbold';
+}

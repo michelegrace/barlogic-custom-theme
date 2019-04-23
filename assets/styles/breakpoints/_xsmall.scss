@@ -1,0 +1,107 @@
+.show-on-mobile {
+  display: block;
+}
+
+.hide-on-mobile {
+  display: none;
+}
+
+header {
+  min-height: 620px;
+
+  .logo {
+    max-height: 40px;
+    margin: 10px auto 0;
+  }
+
+  .copy-wrap {
+    transform: none;
+    position: initial;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 125px;
+
+    h1 {
+      font-size: 26px;
+    }
+  }
+
+  .navbar {
+    margin-top: 0;
+  }
+}
+
+#services img {
+  display: none;
+}
+
+.cta {
+  padding: 20px 0;
+
+  h2 {
+    font-size: 27px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+}
+
+.white-bg {
+  padding: 20px 0;
+
+  h2 {
+    margin-bottom: 25px;
+  }
+}
+
+.ollie-1 {
+  width: 200px;
+  height: 274px;
+  background-size: cover;
+  right: 26%;
+}
+
+.glass-one {
+  z-index: 99;
+  height: 98px;
+  width: 70px;
+  background-size: cover;
+  right: auto;
+
+  &:before {
+    content: '';
+    background: url('../images/mobile-bubbles.png')no-repeat;
+    background-size: cover;
+    height: 100px;
+    width: 40px;
+    bottom: 107px;
+    left: 9px;
+    display: block;
+    position: absolute;
+  }
+}
+
+.bubble-1,
+.bubble-2 {
+  right: auto;
+  display: none;
+}
+
+.glass-two {
+  height: 90px;
+  width: 55px;
+  display: block;
+  background-size: cover;
+}
+
+.glass-one,
+.glass-two,
+.ollie-1 {
+  bottom: 78px;
+}
+
+.footer-list {
+  padding: 0;
+}

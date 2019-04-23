@@ -1,0 +1,74 @@
+.white-bg {
+  padding: 40px 0;
+  h2 {
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 55px;
+  }
+  h4 {
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 55px;
+  }
+}
+.green-bg {
+  background: $green;
+}
+.cta {
+  padding: 50px 0;
+  color: $white;
+  text-align: center;
+  text-transform: uppercase;
+  h2 {
+    color: $white;
+    font-size: 48px;
+    font-family: 'texgyreadventorbold';
+    margin: 0 0 25px;
+  }
+  p {
+    font-size: 32px;
+    line-height: 145%;
+  }
+}
+.wood-bg {
+  background: url(../images/large-wood-panel.jpg)no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#services {
+  h2 {
+    span.red {
+      font-family: 'texgyreadventorbold';
+    }
+  }
+  h3 {
+    font-family: 'texgyreadventorbold';
+    color: $orange;
+    margin-bottom: 15px;
+    .sub-title {
+      font-family: 'texgyreadventorregular';
+      font-size: 0.9em;
+    }
+  }
+  p {
+    margin-bottom: 35px;
+  }
+}
+#contact {
+  h3 {
+    color: $orange;
+    font-size: 48px;
+    text-align: center;
+    font-family: texgyreadventorbold;
+  }
+  p {
+    text-align: center;
+  }
+}
+#gform_wrapper_1 {
+  label {
+    font-family: 'texgyreadventorregular';
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+}

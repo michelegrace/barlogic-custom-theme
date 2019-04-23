@@ -1,0 +1,94 @@
+header {
+  background: url('../images/home-bg.jpg')no-repeat;
+  width: 100%;
+  min-height: 600px;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  .logo {
+    max-height: 50px;
+        margin-top: 10px;
+  }
+  .copy-wrap {
+    position: absolute;
+    top: 50%;
+    left: 2.5%;
+    transform:translate(0,-50%);
+    text-align: center;
+    h1 {
+      color: $green;
+      line-height: 125%;
+      margin-top: 0;
+      margin-bottom: 25px;
+      font-size: 38px;
+    }
+  }
+}
+
+.bar-top {
+  background: url('../images/thin-wood-panel.jpg')no-repeat;
+  height: 100px;
+  width: 100%;
+  background-size: cover;
+  position: absolute;
+  bottom: 0;
+}
+
+
+.glass-one, .glass-two, .ollie-1 {
+  display: block;
+  position: absolute;
+  z-index: 10;
+  bottom: 50px;
+}
+.glass-one {
+  background: url(../images/beaker.png);
+  width: 75px;
+  height: 106px;
+      right: 45%;
+}
+
+.ollie-1 {
+  background: url(../images/ollie-1.png);
+  width: 269px;
+  height: 368px;
+      right: 20%;
+}
+
+.glass-two {
+  background: url(../images/martini.png);
+  width: 83px;
+  height: 131px;
+      right: 10%;
+}
+
+.bubble-1, .bubble-2 {
+  position: absolute;
+  display: block;
+  animation-name: bubbles;
+  background: url(../images/bubble.svg)no-repeat;
+  background-size: cover;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  opacity: 0;
+  bottom: 147px;
+  right: 47%;
+}
+
+.bubble-2 {
+  animation-duration: 3s;
+  animation-delay: .5s;
+  animation-name: bubbles-two;
+}
+
+@keyframes bubbles {
+  0% {opacity: .4; bottom: 147px; width: 16px; height: 16px; right: 46.5%;}
+  50% {opacity: .75; bottom: 207px; width: 32px; height: 32px; right: 47.5%}
+  100% {opacity:0; bottom: 337px; width: 12px; height: 12px; right: 47%}
+}
+
+@keyframes bubbles-two {
+  0% {opacity: .3; bottom: 149px; width: 14px; height: 14px; right: 46.5%;}
+  50% {opacity: .9; bottom: 210px; width: 22px; height: 22px; right: 47%}
+  100% {opacity:0; bottom: 300px; width: 12px; height: 12px; right: 46.5%}
+}

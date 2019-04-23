@@ -1,0 +1,485 @@
+@media screen and (max-width: 1820px) {
+  header .copy-wrap {
+    left: 19%;
+  }
+}
+@media screen and (max-width: 1600px) {
+  header .copy-wrap h1 {
+    font-size: 50px;
+  }
+}
+@media screen and (max-width:1590px) {
+  .glass-one {
+    right: 42%;
+  }
+  .bubble-1,
+  .bubble-2 {
+    right: 44%;
+  }
+  @keyframes bubbles {
+    0% {
+      opacity: 0.4;
+      bottom: 147px;
+      width: 16px;
+      height: 16px;
+      right: 44.5%;
+    }
+    50% {
+      opacity: 0.75;
+      bottom: 207px;
+      width: 32px;
+      height: 32px;
+      right: 44%;
+    }
+    100% {
+      opacity: 0;
+      bottom: 337px;
+      width: 12px;
+      height: 12px;
+      right: 44.5%;
+    }
+  }
+  @keyframes bubbles-two {
+    0% {
+      opacity: 0.3;
+      bottom: 149px;
+      width: 14px;
+      height: 14px;
+      right: 44.5%;
+    }
+    50% {
+      opacity: 0.9;
+      bottom: 210px;
+      width: 22px;
+      height: 22px;
+      right: 43%;
+    }
+    100% {
+      opacity: 0;
+      bottom: 300px;
+      width: 12px;
+      height: 12px;
+      right: 44.5%;
+    }
+  }
+}
+@media screen and (min-width:1410px) {
+  header {
+    height: 700px;
+    .copy-wrap {
+      h1 {
+        font-size: 56px;
+      }
+    }
+  }
+  .ollie-1 {
+    right: 21%;
+  }
+  .glass-two {
+    right: 15%;
+  }
+}
+@media screen and (max-width: 1400px) {
+  header {
+    height: 700px;
+    .copy-wrap {
+      left: 15%;
+      h1 {
+        font-size: 48px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 1200px) {
+  .page-header {
+    height: 600px;
+  }
+}
+@media screen and (max-width: 1190px) {
+  header .copy-wrap {
+    left: 9%;
+  }
+  .ollie-1 {
+    right: 18%;
+  }
+}
+@media screen and (max-width: 1110px) {
+  header .copy-wrap {
+    left: 6%;
+  }
+}
+@media screen and (max-width: 1080px) {
+  header .copy-wrap {
+    left: 6%;
+  }
+}
+@media screen and (max-width: 1130px) {
+  .glass-two {
+    right: 8%;
+  }
+  .ollie-1 {
+    right: 16%;
+  }
+}
+@media screen and (max-width:1024px) {
+  .bubble-1,
+  .bubble-2,
+  .glass-one {
+    right: 46%;
+  }
+  @keyframes bubbles {
+    0% {
+      opacity: 0.4;
+      bottom: 147px;
+      width: 16px;
+      height: 16px;
+      right: 48.5%;
+    }
+    50% {
+      opacity: 0.75;
+      bottom: 207px;
+      width: 32px;
+      height: 32px;
+      right: 46%;
+    }
+    100% {
+      opacity: 0;
+      bottom: 337px;
+      width: 12px;
+      height: 12px;
+      right: 48.5%;
+    }
+  }
+  @keyframes bubbles-two {
+    0% {
+      opacity: 0.3;
+      bottom: 149px;
+      width: 14px;
+      height: 14px;
+      right: 48.5%;
+    }
+    50% {
+      opacity: 0.9;
+      bottom: 210px;
+      width: 22px;
+      height: 22px;
+      right: 47%;
+    }
+    100% {
+      opacity: 0;
+      bottom: 300px;
+      width: 12px;
+      height: 12px;
+      right: 48.5%;
+    }
+  }
+  .glass-two {
+    right: 4%;
+  }
+  .ollie-1 {
+    right: 16%;
+  }
+}
+@media screen and (max-width: 992px) {
+  header .copy-wrap {
+    left: auto;
+    position: initial;
+    transform: none;
+    padding-top: 100px;
+    h1 {
+      font-size: 48px;
+    }
+  }
+}
+@media screen and (max-width: 987px) {
+  .ollie-1 {
+    right: 15%;
+  }
+}
+@media screen and (max-width: 900px) {
+  .glass-two {
+    right: 3%;
+  }
+  .ollie-1 {
+    right: 13%;
+  }
+}
+@media screen and (max-width: 850px) {
+  .glass-one {
+    right: 51%;
+  }
+  .ollie-1 {
+    right: 16%;
+  }
+  .glass-two {
+    right: 4%;
+  }
+  .bubble-1,
+  .bubble-2 {
+    right: 52%;
+  }
+}
+@media screen and (max-width: 825px) {
+  header .copy-wrap h1 {
+    font-size: 34px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .glass-two {
+    right: 5%;
+  }
+  .glass-one {
+    right: 55%;
+  }
+  .bubble-1,
+  .bubble-2 {
+    right: 58%;
+    @keyframes bubbles {
+      0% {
+        opacity: 0.4;
+        bottom: 147px;
+        width: 16px;
+        height: 16px;
+        right: 58%;
+      }
+      50% {
+        opacity: 0.75;
+        bottom: 207px;
+        width: 32px;
+        height: 32px;
+        right: 57.5%;
+      }
+      100% {
+        opacity: 0;
+        bottom: 337px;
+        width: 12px;
+        height: 12px;
+        right: 57%;
+      }
+    }
+    @keyframes bubbles-two {
+      0% {
+        opacity: 0.3;
+        bottom: 149px;
+        width: 14px;
+        height: 14px;
+        right: 58%;
+      }
+      50% {
+        opacity: 0.9;
+        bottom: 210px;
+        width: 22px;
+        height: 22px;
+        right: 58.5%;
+      }
+      100% {
+        opacity: 0;
+        bottom: 300px;
+        width: 12px;
+        height: 12px;
+        right: 59%;
+      }
+    }
+  }
+  .ollie-1 {
+    right: 17%;
+  }
+  #services {
+    img {
+      margin-top: 95px;
+    }
+  }
+  header {
+    min-height: 500px;
+    .copy-wrap {
+      left: 1%;
+      top: 50%;
+      transform: translate(0,-50%);
+      padding-top: 0;
+      position: absolute;
+      h1 {
+        font-size: 34px;
+        margin-bottom: 15px;
+      }
+    }
+    .navbar {
+      margin-top: 20px;
+      text-align: center;
+    }
+    .collapse {
+      display: block;
+    }
+    .navbar-header {
+      display: none;
+    }
+    .navbar-collapse {
+      padding-right: 0;
+      padding-left: 0;
+    }
+    .nav > li > a {
+      padding: 10px 2px;
+    }
+    .nav > li,
+    .nav > li > a {
+      font-size: 18px;
+    }
+  }
+}
+@media screen and (max-width: 767px) {
+  header .navbar {
+    margin-top: 0;
+    font-size: 21px;
+    padding: 10px 17px;
+  }
+}
+@media screen and (max-width: 737px) {
+  .show-on-mobile {
+    display: block;
+  }
+  .hide-on-mobile {
+    display: none;
+  }
+  header {
+    min-height: 620px;
+    .logo {
+      max-height: 40px;
+      margin: 10px auto 0;
+    }
+    .copy-wrap {
+      padding-top: 100px;
+      transform: none;
+      position: initial;
+      text-align: center;
+      padding-left: 5px;
+      padding-right: 5px;
+      h1 {
+        font-size: 26px;
+      }
+    }
+    .navbar {
+      margin-top: 0;
+    }
+  }
+  #services img {
+    display: none;
+  }
+  .show-on-mobile {
+    display: block;
+    float: right;
+  }
+  .hide-on-mobile {
+    display: none;
+  }
+  .cta {
+    padding: 20px 0;
+    h2 {
+      font-size: 27px;
+    }
+    p {
+      font-size: 18px;
+    }
+  }
+  .white-bg {
+    padding: 20px 0;
+    h2 {
+      margin-bottom: 25px;
+    }
+  }
+  .ollie-1 {
+    width: 200px;
+    height: 274px;
+    background-size: cover;
+    left: 50%;
+    transform: translate(-50%,0);
+  }
+  .glass-one {
+    z-index: 99;
+    height: 98px;
+    width: 70px;
+    background-size: cover;
+    right: auto;
+    left: 25%;
+    &:before {
+      content: '';
+      background: url('../images/mobile-bubbles.png')no-repeat;
+      background-size: cover;
+      height: 100px;
+      width: 40px;
+      bottom: 107px;
+      left: 9px;
+      display: block;
+      position: absolute;
+    }
+  }
+  .bubble-1,
+  .bubble-2 {
+    right: auto;
+    display: none;
+  }
+  .glass-two {
+    height: 90px;
+    width: 55px;
+    display: block;
+    background-size: cover;
+    right: 25%;
+  }
+  .footer-list {
+    padding: 0;
+  }
+  .glass-one,
+  .glass-two,
+  .ollie-1 {
+    bottom: 75px;
+  }
+}
+@media screen and (max-width:655px) {
+  .glass-two {
+    right: 23%;
+  }
+  .glass-one {
+    left: 20%;
+  }
+}
+@media screen and (max-width: 570px) {
+  header .col-xs-4,
+  header .col-xs-8 {
+    width: 100%;
+    float: none;
+  }
+  header .copy-wrap {
+    padding-top: 130px;
+    h1 {
+      font-size: 38px;
+    }
+  }
+  .glass-one {
+    left: 19%;
+  }
+  .glass-two {
+    right: 20%;
+  }
+  #about .white-bg h4 {
+    margin-bottom: 0;
+  }
+  #about img.aligncenter {
+    margin: 0 auto 10px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .glass-one {
+    left: 10%;
+  }
+  .glass-two {
+    right: 10%;
+  }
+  #about .white-bg {
+    h4 {
+      font-size: 14px;
+    }
+  }
+}
+@media screen and (max-width: 425px) {
+  .glass-one {
+    left: 10px;
+  }
+}
